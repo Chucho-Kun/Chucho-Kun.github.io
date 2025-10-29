@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+:root{
+    --fondo-texto: #B9D1EA;
+    --titulo-web: #162B41;
+    --githuburl: #364F6A;
+}
+
+body{margin: 0px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+}
+a{
+    text-decoration: none !important;
+    color: darkblue;
+}
+#contenedor{
+    width: 100%;
+    max-width: 1250px;
+    display: inline-block;
+}
+
+.resultado{
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    display: inline-block;
+    max-width: 400px;
+    margin: 8px;
+}
+.titulo{
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--titulo-web);
+    max-width: 300px;
+    display: inline-table;
+    padding: 15px;
+}
+.res{
+    background-color: var(--fondo-texto);
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+.description{
+    text-align: left;
+}
+.linkedin{
+    position: absolute;
+    background-color: #0967c2;
+    border-radius: 8px;
+    width: 25px;
+    border: solid 2px white;
+}
+#header{
+    background-color: #024997;
+}
+.github{
+    background-color: var(--githuburl);
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    max-width: 300px;
+    display: inline-block;
+    margin: 5px 0px;
+    color: white;
+    border-radius: 6px;
+}
