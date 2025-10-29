@@ -47,6 +47,11 @@ a{
 .description{
     text-align: left;
 }
+
+.desc{
+    font-size: 14px;
+}
+
 .linkedin{
     position: absolute;
     background-color: #0967c2;

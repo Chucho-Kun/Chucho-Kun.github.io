@@ -19,14 +19,14 @@ let sitios =
   github:false, 
   text:"Website dedicated to selling bus tickets by selecting origin, destination, schedule, and passengers. It displays banners and promotions in carousel form. It also displays a news section from the official blog connected to the news feed."
 },{ 
-  nombre:"DevJobs", 
-  url: "https://devjobs-docker-chuchokun.mnz.dom.my.id/", 
-  img:"devjobs",
-  github:"https://github.com/Chucho-Kun/devjobs-docker", 
-  text:"Job posting platform for recruiters and employees, contains a search engine for terms, categories and salaries. Laravel + MySQL + Livewire + Docker + Tailwindcss - (Full-Stack Job Posting)"
+  nombre:"CRM Vendedores", 
+  url: "https://crm-graphql-client-nine.vercel.app/", 
+  img:"crm" , 
+  github:"https://github.com/Chucho-Kun/crm-graphql-client",
+  text:"A CRM-type products, customers, and sales management platform built with GraphQL on the server and Next on the client, containing stadistical graphs of top sellers and top customers"
 },{ 
-  nombre:"UpTast", 
-  url: "https://client-uptask-node-typescript.vercel.app/auth/login", 
+  nombre:"UpTask", 
+  url: "https://client-uptask-node-typescript.vercel.app", 
   img:"upTask" , 
   github:"https://github.com/Chucho-Kun/client-uptask-node-typescript-",
   text:"Client/Server - Task management CRM with email password recovery, collaborator or manager hierarchies, task attention status, and change history."
@@ -48,6 +48,12 @@ let sitios =
   img:"recipe" , 
   github:"https://github.com/Chucho-Kun/recipe-finder-react",
   text:"A recipe search engine that queries the www.thecocktaildb.com API to filter recipes based on different ingredients, as well as request a recipe using nvidia/llama-3.3-nemotron-super49b-v1:free AI Model API. The platform allows save recipes in a My Favorites section"
+},{ 
+  nombre:"DevJobs", 
+  url: "https://devjobs-docker-chuchokun.mnz.dom.my.id/", 
+  img:"devjobs",
+  github:"https://github.com/Chucho-Kun/devjobs-docker", 
+  text:"A job posting platform for recruiters and candidates, built with Laravel as both backend and frontend and interconnected by Livewire. It features a search engine for terms, categories, and salaries, you can upload your resume in PDF format. Laravel + MySQL + Livewire + Docker + Tailwind CSS - (Full-Stack)"
 }
 ];
 
