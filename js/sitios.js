@@ -49,13 +49,12 @@ let sitios =
   github:"https://github.com/Chucho-Kun/recipe-finder-react",
   text:"A recipe search engine that queries the www.thecocktaildb.com API to filter recipes based on different ingredients, as well as request a recipe using nvidia/llama-3.3-nemotron-super49b-v1:free AI Model API. The platform allows save recipes in a My Favorites section"
 },{ 
-  nombre:"DevJobs", 
-  url: "https://devjobs-docker-chuchokun.mnz.dom.my.id/", 
-  img:"devjobs",
-  github:"https://github.com/Chucho-Kun/devjobs-docker", 
-  text:"A job posting platform for recruiters and candidates, built with Laravel as both backend and frontend and interconnected by Livewire. It features a search engine for terms, categories, and salaries, you can upload your resume in PDF format. Laravel + MySQL + Livewire + Docker + Tailwind CSS - (Full-Stack)"
-}
-];
+  nombre:"DevTree", 
+  url: "https://devtree-client-chuchokun.netlify.app/", 
+  img:"devtree",
+  github:"https://github.com/Chucho-Kun/devtree-typescript-client", 
+  text:"A Fullstack platform built on MERN architecture (Mongo - Express - React - Node) that allows you to register and search for a custom URL, showing if it is previosly available. Once registered, the user can show or hide their social networks, as well as upload a profile picture and description"
+}];
 
 let html = '';
 
