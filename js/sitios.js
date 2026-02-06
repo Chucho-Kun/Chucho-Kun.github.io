@@ -31,11 +31,11 @@ let sitios =
   github:"https://github.com/Chucho-Kun/client-uptask-node-typescript-",
   text:"Client/Server - Task management CRM with email password recovery, collaborator or manager hierarchies, task attention status, and change history."
 },{ 
-  nombre:"Food Stack", 
-  url: "https://food-stack-next.vercel.app/order/cafe", 
-  img:"foodstack" , 
-  github:"https://github.com/Chucho-Kun/food-stack-next",
-  text:"Food kiosco style platform for real-time order management, featuring user, kitchen, and completed order views. Built on Next + React + Prisma [PostgreSQL]"
+  nombre:"DevTree", 
+  url: "https://devtree-client-chuchokun.netlify.app/", 
+  img:"devtree",
+  github:"https://github.com/Chucho-Kun/devtree-typescript-client", 
+  text:"A Fullstack platform built on MERN architecture that allows you to register and search for a custom URL, showing if it is previosly available. The user can show or hide their social networks, as well as upload a profile picture and description"
 },{ 
   nombre:"Waifu Battle VS", 
   url: "https://waifu-battle-vs.netlify.app/", 
@@ -49,11 +49,11 @@ let sitios =
   github:"https://github.com/Chucho-Kun/recipe-finder-react",
   text:"A recipe search engine that queries the www.thecocktaildb.com API to filter recipes based on different ingredients, as well as request a recipe using nvidia/llama-3.3-nemotron-super49b-v1:free AI Model API. The platform allows save recipes in a My Favorites section"
 },{ 
-  nombre:"DevTree", 
-  url: "https://devtree-client-chuchokun.netlify.app/", 
-  img:"devtree",
-  github:"https://github.com/Chucho-Kun/devtree-typescript-client", 
-  text:"A Fullstack platform built on MERN architecture (Mongo - Express - React - Node) that allows you to register and search for a custom URL, showing if it is previosly available. Once registered, the user can show or hide their social networks, as well as upload a profile picture and description"
+  nombre:"Food Stack", 
+  url: "https://food-stack-next.vercel.app/order/cafe", 
+  img:"foodstack" , 
+  github:"https://github.com/Chucho-Kun/food-stack-next",
+  text:"Food kiosco style platform for real-time order management, featuring user, kitchen, and completed order views. Built on Next + React + Prisma [PostgreSQL]"
 }];
 
 let html = '';
