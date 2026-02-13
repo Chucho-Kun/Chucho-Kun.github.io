@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+@font-face {
+	font-family: "Jost";
+	src: url("fonts/Jost-VariableFont_wght.ttf") format("truetype");
+	font-weight: 100 900;
+	font-display: swap;
+}
 
 :root{
     --fondo-texto: #B9D1EA;
-    --titulo-web: #162B41;
+    --titulo-web: #BF2C2B;
     --githuburl: #364F6A;
 }
 
 body{margin: 0px;
     text-align: center;
-    font-family: Arial,sans-serif;
+    font-family: 'Jost',sans-serif;
 }
 a{
     text-decoration: none !important;
@@ -40,6 +45,19 @@ a{
     }
 }
 
+.seccion {
+    color: black;
+    padding: 5px 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #FCD22D;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    width: 100%;
+    max-width: 500px;
+    font-size: 20px;
+}
+
 .seleccionado {
     font-weight: bold;
     color: black !important;
@@ -58,7 +76,7 @@ a{
     margin: 8px;
 }
 .titulo{
-    font-family: 'Montserrat';
+    font-family: 'Jost';
     color: white;
     font-size: 16px;
     text-align: center;
@@ -67,11 +85,13 @@ a{
     max-width: 300px;
     display: inline-table;
     padding: 15px;
+    font-weight: bold;
 }
 .res{
-    background-color: var(--fondo-texto);
     border-radius: 10px;
     border-collapse: collapse;
+    border: solid red 1px;
+    display: block;
 }
 .description{
     text-align: left;
@@ -94,10 +114,14 @@ a{
 #header-mailing {
     background-color: #388328;
 }
+
+#header-videogame {
+    background-color:black;
+}
 .github{
     background-color: var(--githuburl);
     font-weight: bold;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Jost',sans-serif;
     font-size: 12px;
     padding: 10px;
     max-width: 300px;
