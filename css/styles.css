@@ -20,6 +20,35 @@ a{
     display: inline-block;
 }
 
+.nav-menu {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 15px;
+}
+
+.nav-menu div {
+    color: gray;
+    padding: 5px;
+}
+
+@media (max-width: 300px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.seleccionado {
+    font-weight: bold;
+    color: black !important;
+}
+
+.nav-menu div:hover {
+    text-decoration: underline;
+}
+
 .resultado{
     background-color: white;
     border-radius: 8px;
@@ -61,6 +90,9 @@ a{
 }
 #header{
     background-color: #024997;
+}
+#header-mailing {
+    background-color: #388328;
 }
 .github{
     background-color: var(--githuburl);
