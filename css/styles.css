@@ -118,6 +118,11 @@ a{
 #header-videogame {
     background-color:black;
 }
+
+#header-design {
+    background-color:#d43c0a;
+}
+
 .github{
     background-color: var(--githuburl);
     font-weight: bold;
@@ -129,4 +134,15 @@ a{
     margin: 5px 0px;
     color: white;
     border-radius: 6px;
+}
+
+.download {
+    border: solid #bf2c2b 2px;
+    padding: 15px;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 23px;
+    font-weight: bold;
+    color: #bf2c2b;
+    font-size: 12px;
 }
