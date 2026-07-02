@@ -7,11 +7,11 @@ let sitios =
   github:false,
   text:"Blog-type website that shows stories behind songs from different bands sorted by album, band and number of views, it has a search engine by keywords and categories, each blog article is automated with SEO optimization and enriched cards"
 },{ 
-  nombre:"YouTube Video Blog", 
-  url: "https://youtubevideo.blog", 
-  img:"youtube",
-  github:false, 
-  text:"Website that converts YouTube videos into blog posts (it connects to the YouTube API to select a video that is less than 15 minutes long and then extracts the video and converts it into text using AI to publish it as a blog post, includes a tutorial on how to use it)"
+  nombre:"Dipemsa", 
+  url: "https://www.dipemsa.com.mx/", 
+  img:"dipemsa",
+  github:'https://github.com/Chucho-Kun/next-dipemsa-web', 
+  text:"ECommerce Platform of tools from different brands and categories, it features a Mercado Pago payment gateway"
 },{ 
   nombre:"Omnibus de México", 
   url: "https://odm.com.mx/nuevowebsite/", 
