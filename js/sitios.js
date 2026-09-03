@@ -1,11 +1,11 @@
 
 let sitios = 
 [
-{ nombre:"Stories Behind The Songs", 
-  url: "https://storiesbehindsongs.com", 
-  img:"stories", 
-  github:false,
-  text:"Blog-type website that shows stories behind songs from different bands sorted by album, band and number of views, it has a search engine by keywords and categories, each blog article is automated with SEO optimization and enriched cards"
+{ nombre:"Ferredip - Herramientas", 
+  url: "https://ferredip.com.mx/", 
+  img:"ferredip", 
+  github:"https://github.com/Chucho-Kun/next-ferredip",
+  text:"E-commerce platform synchronized with Truper’s databases and photos; features payment gateway and email confirmation"
 },{ 
   nombre:"Dipemsa", 
   url: "https://www.dipemsa.com.mx/", 
@@ -17,7 +17,12 @@ let sitios =
   url: "https://odm.com.mx/nuevowebsite/", 
   img:"odm",
   github:false, 
-  text:"Website dedicated to selling bus tickets by selecting origin, destination, schedule, and passengers. It displays banners and promotions in carousel form. It also displays a news section from the official blog connected to the news feed."
+  text:"A website dedicated to selling bus tickets via a booking interface where users select their origin, destination, schedule, and number of passengers. It features banners and promotions in a carousel format, as well as a news section linked to the official blog's news feed."
+},{ nombre:"Stories Behind The Songs", 
+  url: "https://storiesbehindsongs.com", 
+  img:"stories", 
+  github:false,
+  text:"This blog-style website lists and categorizes various songs—featuring stories and videos sourced via the YouTube by band, album, and view count. It includes a search function based on keywords and categories, and each article is automated with SEO optimization and rich cards for photos, articles, and videos. The blog is linked to YouTube channels in both English and Spanish to boost organic traffic. In line with recent Google search updates, plans are in place to include short-form vertical videos to appear in a dedicated section of the search results."
 },{ 
   nombre:"CRM Vendedores", 
   url: "https://crm-graphql-client-nine.vercel.app/", 
